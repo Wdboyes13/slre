@@ -1,0 +1,11 @@
+CHANGES to SLRE by Wdboyes13
+
+The following changes were made to the original SLRE (https://github.com/cesanta/slre):
+
+- Modified the code to be compatible with the custom kernel environment used in WKern
+  (https://github.com/Wdboyes13/wkern), including replacing or adapting standard library 
+  functions (e.g., `strlen`, `strcher`, `tolower`, etc.) with WKern equivalents. (Prefixed with k-)
+
+No functional changes were made to the core regex engine logic.
+
+-- Wdboyes13
